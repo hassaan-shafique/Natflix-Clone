@@ -112,6 +112,41 @@ input{
     margin-top: 8px;
 }
 
+.panel{
+    padding: 50px 12px;
+    font-size: 22px;
+
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+.panel h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+
+}
+
 .panel-1{
     border-top: 8px solid grey ;
 
