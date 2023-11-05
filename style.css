@@ -306,3 +306,67 @@ input{
 
  }
  
+ @media  only screen and (max-width:600px) {
+    .logo{
+        width: 100px;
+        
+    }
+        .button-one {
+            color: white;
+            background-color: #ac0b0b;
+            border: none;
+            width: 60px;
+            height: 30px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-right: 3px;
+        }
+                .header-text {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    /* transform: translate(-50%, -50%); */
+                    text-align: center;
+                    font-size: 30px;
+                }
+              .header-text h1{
+               font-size: 35px;
+                }
+                         .header-text h4 {
+                             font-size: 23px;
+                            }
+                            .header-text p{
+                                font-size:16px;
+                            }
+                            .header{
+                                height: 650px;
+                            }
+                           .email-signup .button-two{
+                            font-size: 12px;
+                            width: 130px;
+                            margin-bottom: 60px;
+                           } 
+           .panel h1{
+            font-size: 20px;
+
+           }      
+                        .panel h4{
+                            font-size: 15px;
+            
+                        }
+    .row:nth-child(2), .row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .panel .row  {
+        padding: 10px 0;
+        
+    }
+    .questions h2{
+        font-size: 30px;
+    }
+.questions{
+    font-size: 20px;
+    padding: 20px ;
+}
+ }
