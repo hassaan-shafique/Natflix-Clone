@@ -234,6 +234,7 @@ input{
     padding: 20px 12% 1px;
     border-top: 8px solid grey ;
     color: #777;
+    height: 400px;
 
  }
  .footer h2{
@@ -291,6 +292,7 @@ input{
         font-size: 16px;
         margin-bottom:20px;
         margin-left: 54px;
+        color: #c2b8b8;
  }
  .col{
     flex:1;
