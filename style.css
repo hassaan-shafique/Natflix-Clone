@@ -196,8 +196,15 @@ input{
     font-size: 34px;
    position: absolute;
    right: 20px;
+   transition: transform 0.5s;
 
  }
+ .content{
+    height: 110px;
+    display: flex;
+    align-items: center;
+ }
+ 
  input[type="radio"]
  {
     display: none;
@@ -209,7 +216,13 @@ input{
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ,padding 0.2s;
 
 
  }
- 
+ .options input[type="radio"]:checked + label + .content {
+    max-height:  600px; 
+ }
+ .options input[type="radio"]:checked+label::after{
+    transform: rotate(135deg);
+ }
