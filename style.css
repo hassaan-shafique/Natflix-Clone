@@ -231,26 +231,76 @@ input{
     transform: rotate(135deg);
  }
  .footer{
-    padding: 50px 15% 10px;
+    padding: 20px 12% 1px;
     border-top: 8px solid grey ;
     color: #777;
 
  }
+ .footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+ }
+
  .footer .col{
+    display: inline-block;
     flex-basis: 25%;
     flex-grow: 1;
     margin-bottom: 20px;
 
  }
+
  .footer .col a{
     display: block;
-    text-decoration: none;
-    color: #777;
-    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(170, 158, 158);
+    font-size: 15px;
     margin-bottom: 10px;
+    
+
 
  }
- .row-1{
-    display: block;
-    display: inline;
+ .footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
  }
+ .footer .lang-btn{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 95px;
+    height: 35px;
+    font-size: 16px;
+    margin-right:77% ;
+    border-radius: 4px;
+
+ }
+ .footer h5{
+    margin-left: 34px;
+    width: 220px;
+    margin-top:20px ;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #c2b8b8;
+ }
+ h6{
+   
+        width: 120px;
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom:20px;
+        margin-left: 54px;
+ }
+ .col{
+    flex:1;
+    padding:10px;
+    margin:50px;
+    align-items: flex-start;
+
+ }
+ .footer a{
+    text-align: left;
+
+ }
+ 
