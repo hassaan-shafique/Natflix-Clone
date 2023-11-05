@@ -157,9 +157,10 @@ input{
     font-weight: 400;
 } 
 .questions{
-    padding: 10px 12%;
+   
     text-align: center;
     font-size: 18px;
+    
 
 
 }
@@ -184,8 +185,8 @@ input{
     display: flex;
     align-items: center;
     padding: 20px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 530;
     background:#303030;
     margin-bottom: 2px;
     cursor: pointer;
@@ -200,9 +201,11 @@ input{
 
  }
  .content{
-    height: 110px;
+    max-height: 330px;
     display: flex;
     align-items: center;
+    font-size: 24px;
+    padding: 32px;
  }
  
  input[type="radio"]
@@ -214,6 +217,7 @@ input{
     background: #303030;
     text-align: left;
     padding: 0 20px;
+    
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ,padding 0.2s;
@@ -225,4 +229,28 @@ input{
  }
  .options input[type="radio"]:checked+label::after{
     transform: rotate(135deg);
+ }
+ .footer{
+    padding: 50px 15% 10px;
+    border-top: 8px solid grey ;
+    color: #777;
+
+ }
+ .footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+ }
+ .footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+ }
+ .row-1{
+    display: block;
+    display: inline;
  }
